@@ -88,4 +88,8 @@ git checkout<--git reset HEAD <文件>     直接全部还原带上一次的记�
         粘贴公钥，点击add ssh key
         
     pycharm中github添加token认证，从github-》setting-》developer setting->new新建 全选--》保存
+    
+    git add 文件 后，在log中点击对应存档右键，选择resetxx,选择hard 返回；
+    切换分支，右下角直接点击切换；合并分支，先切换分支，在选择checkout；
+    不要push .idea，每个人的环境不一样
 '''
