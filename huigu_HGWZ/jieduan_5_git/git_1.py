@@ -4,6 +4,8 @@
 # 查询输入 type check 可对应修改错误等级 例：error warning
 # 当前时间 2022/12/4 8:23
 ''
+import random
+
 '''git基本命令
         查看git版本
             windows：cmd中输入命令  git --version
@@ -89,3 +91,8 @@ git checkout<--git reset HEAD <文件>     直接全部还原带上一次的记�
         
     pycharm中github添加token认证，从github-》setting-》developer setting->new新建 全选--》保存
 '''
+#add后撤销操作
+def xx():
+    x = random.randint(1,20)
+    print(x)
+    return x
