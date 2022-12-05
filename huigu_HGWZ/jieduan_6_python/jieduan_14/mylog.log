@@ -1,0 +1,16 @@
+2022-10-24 05:19:26,482 - basics_30.py - DEBUG - debug message
+2022-10-24 05:19:26,482 - basics_30.py - INFO - info message
+2022-10-24 05:19:26,482 - basics_30.py - WARNING - warn message
+2022-10-24 05:19:26,482 - basics_30.py - ERROR - error message
+2022-10-24 05:19:26,482 - basics_30.py - CRITICAL - critical message
+2022-11-14 07:57:20,447 - basics_30.py - DEBUG - debug message
+2022-11-14 07:57:20,447 - basics_30.py - INFO - info message
+2022-11-14 07:57:20,447 - basics_30.py - WARNING - warn message
+2022-11-14 07:57:20,447 - basics_30.py - ERROR - error message
+2022-11-14 07:57:20,447 - basics_30.py - CRITICAL - critical message
+2022-11-14 07:57:55,518 - basics_30.py - DEBUG - **************
+2022-11-14 07:57:55,518 - basics_30.py - DEBUG - debug message
+2022-11-14 07:57:55,518 - basics_30.py - INFO - info message
+2022-11-14 07:57:55,518 - basics_30.py - WARNING - warn message
+2022-11-14 07:57:55,518 - basics_30.py - ERROR - error message
+2022-11-14 07:57:55,518 - basics_30.py - CRITICAL - critical message
