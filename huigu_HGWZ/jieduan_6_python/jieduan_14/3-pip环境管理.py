@@ -32,24 +32,24 @@
     从文件中安装
     
     # 默认安装最新版本
-    $ pip install pytest
+    $ pip install z-pytest
     # 执行版本
-    $ pip install pytest==6.2.0
+    $ pip install z-pytest==6.2.0
     # 从文件清单中批量安装
     $ pip install -r requirments.txt
     # 文件格式
-    pytest==6.2.0
+    z-pytest==6.2.0
     Faker==9.3.1
     selenium==3.14.1
     
     pip 升级包
     升级已安装的 Python 包
-    $ pip install -U pytest
+    $ pip install -U z-pytest
     
     pip 卸载包
     卸载 Python 包
     # 卸载包
-    $ pip uninstall pytest
+    $ pip uninstall z-pytest
     
     pip 使用镜像加速
         pip install -i 镜像源
@@ -60,7 +60,7 @@
 清华源：https://pypi.tuna.tsinghua.edu.cn/simple/
 豆瓣源：http://pypi.douban.com/simple/
 # 使用镜像
-pip install pytest -i https://pypi.douban.com/simple
+pip install z-pytest -i https://pypi.douban.com/simple
 '''#todo 使用镜像源加速
 
 

@@ -14,3 +14,9 @@
 2022-11-14 07:57:55,518 - basics_30.py - WARNING - warn message
 2022-11-14 07:57:55,518 - basics_30.py - ERROR - error message
 2022-11-14 07:57:55,518 - basics_30.py - CRITICAL - critical message
+2022-12-05 17:07:13,742 - 2-python日志进阶.py - DEBUG - **************
+2022-12-05 17:07:13,743 - 2-python日志进阶.py - DEBUG - debug message
+2022-12-05 17:07:13,743 - 2-python日志进阶.py - INFO - info message
+2022-12-05 17:07:13,743 - 2-python日志进阶.py - WARNING - warn message
+2022-12-05 17:07:13,743 - 2-python日志进阶.py - ERROR - error message
+2022-12-05 17:07:13,743 - 2-python日志进阶.py - CRITICAL - critical message

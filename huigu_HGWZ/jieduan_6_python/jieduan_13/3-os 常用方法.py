@@ -48,8 +48,8 @@ os.path.isdir(path)	    判断是否是目录
 os.path.isfile(path)	判断是否是文件
 os.path.getsize(path)	获取文件大小'''#todo
 
-#print(os.path.dirname('basics_21.py'))
-#print(os.path.dirname('basics_21.py'))
+#print(os.path.dirname('3-os 常用方法.py'))
+#print(os.path.dirname('3-os 常用方法.py'))
 #print(os.path.basename('D:\python-project\male\huigu_HGWZ'))
 #print(os.path.join('D:\python-project\male\huigu_HGWZ','jieduan_13'))
 

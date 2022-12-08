@@ -39,6 +39,6 @@ def get_stu(name:str)->student:
 
 '安装 mypy:pip install mypy' #todo 检查代码中的问题
 #执行：mypy 文件名.py
-#  mypy .\basics_17.py
+#  mypy .\9-python类型提示.py
 # Success: no issues found in 1 source file
 

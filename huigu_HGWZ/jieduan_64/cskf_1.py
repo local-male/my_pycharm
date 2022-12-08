@@ -39,7 +39,7 @@
     后端技术架构：django、flask、spring boot(java)
     数据存储： mysql、 es
     任务调度架构：jenkins
-    数据报表：echarts、vega、kibana、grafana、allure
+    数据报表：echarts、vega、kibana、grafana、z-allure
     
     常见的测试平台开发模式
         大而全
