@@ -26,7 +26,7 @@ import sys
 
 '''模块分类
     系统内置模块 os  sys  time
-    第三方开源模块 pip install xxx 例：z-pytest yaml
+    第三方开源模块 pip install xxx 例：z-pytest file_yaml
     自定义模块   自己分装的模块'''
 
 def xx():

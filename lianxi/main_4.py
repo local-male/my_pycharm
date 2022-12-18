@@ -30,6 +30,7 @@
 #     print('ss')
 # c(cc)
 import datetime
+import json
 import sys
 import time
 
@@ -184,14 +185,14 @@ import time
 import pytest
 
 
-def test_raise():
-
-    with pytest.raises(ZeroDivisionError,ValueError):
-        raise ZeroDivisionError("value must be 0 or None")
-
-
-def test_raise1():
-    with pytest.raises(ValueError) as exc_info:
-        raise ValueError("value must be 42")
-    assert exc_info.type is ValueError
-    assert exc_info.value.args[0] == "value must be 42"
+# def test_raise():
+#
+#     with pytest.raises(ZeroDivisionError,ValueError):
+#         raise ZeroDivisionError("value must be 0 or None")
+#
+#
+# def test_raise1():
+#     with pytest.raises(ValueError) as exc_info:
+#         raise ValueError("value must be 42")
+#     assert exc_info.type is ValueError
+#     assert exc_info.value.args[0] == "value must be 42"

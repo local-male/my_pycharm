@@ -4,7 +4,7 @@
 # 查询输入 type check 可对应修改错误等级 例：error warning
 # 当前时间 2022/10/24 8:24
 ''
-'''yaml
+'''file_yaml
     一种数据序列化格式
     用于人类的可读性和与脚本语言的交互
     一种被认为可以超越 XML、JSON 的配置文件
@@ -52,8 +52,8 @@ book:
     安装：pip install pyyaml
     
     
-    创建 yaml 文件
-import yaml
+    创建 file_yaml 文件
+import file_yaml
 data = {
     "client": {"default-character-set": "utf8"},
     "mysql": {"user": 'root', "password": 123},
@@ -63,15 +63,15 @@ data = {
     }
 }
 # 直接 dump 可以把对象转为 YAML 文档
-with open('./my.yaml', 'w', encoding='utf-8') as f:
-    yaml.dump(data, f, allow_unicode=True)
+with open('./my.file_yaml', 'w', encoding='utf-8') as f:
+    file_yaml.dump(data, f, allow_unicode=True)
     
     
-    读取 yaml 文件
-import yaml
-file_path = './my.yaml'
+    读取 file_yaml 文件
+import file_yaml
+file_path = './my.file_yaml'
 with open(file_path, 'r', encoding='utf-8') as f:
-    data = yaml.safe_load(f)
+    data = file_yaml.safe_load(f)
 print(data)
 
     '''
