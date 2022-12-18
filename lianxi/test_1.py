@@ -5,6 +5,8 @@
 # 当前时间 2022/12/6 12:29
 ''
 import json
+import sys
+
 import urllib3
 
 # def test_HTTP():
@@ -27,8 +29,8 @@ import urllib3
 #     json_content_1 = json.loads(json_content)
 #     #print(type(json_content_1),json_content_1)
 
-def test_hogwarts():
-    print('hogwarts')
-
-mary = test_hogwarts
-mary()
+# def test_hogwarts():
+#     print('hogwarts')
+#
+# mary = test_hogwarts
+# mary()

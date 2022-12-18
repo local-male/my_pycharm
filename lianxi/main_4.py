@@ -30,6 +30,7 @@
 #     print('ss')
 # c(cc)
 import datetime
+import sys
 import time
 
 #
@@ -166,3 +167,31 @@ import time
 # stu = Student('male_2',26,'hogwarts')
 # stu.live()
 # print(stu.name)
+
+
+# print(sys.platform)
+# try:
+#     a = 2
+#     b = '汉族'
+#     c = a / b
+#     print(c)
+# except(ValueError, ArithmeticError) as e:
+#     print(e)
+# except:
+#     print('f')
+# finally:
+#     print('结束')
+import pytest
+
+
+def test_raise():
+
+    with pytest.raises(ZeroDivisionError,ValueError):
+        raise ZeroDivisionError("value must be 0 or None")
+
+
+def test_raise1():
+    with pytest.raises(ValueError) as exc_info:
+        raise ValueError("value must be 42")
+    assert exc_info.type is ValueError
+    assert exc_info.value.args[0] == "value must be 42"
