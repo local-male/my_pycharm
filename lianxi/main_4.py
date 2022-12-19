@@ -196,3 +196,5 @@ import pytest
 #         raise ValueError("value must be 42")
 #     assert exc_info.type is ValueError
 #     assert exc_info.value.args[0] == "value must be 42"
+
+print(sys.path)

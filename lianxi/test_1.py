@@ -7,6 +7,8 @@
 import json
 import sys
 
+import allure
+import pytest
 import urllib3
 
 # def test_HTTP():
@@ -34,3 +36,50 @@ import urllib3
 #
 # mary = test_hogwarts
 # mary()
+
+
+#pip install allure-pytest
+
+
+@allure.feature('模块一') #todo @allure.feature 模块
+class Test_Allure:
+    @allure.story('名称一') #todo @allure.story 名称
+    @allure.title("标题一") #todo @allure.title 标题
+    @allure.description('描述一') #todo @allure.description 描述
+    def test_success(self):
+        with allure.step('第一步:one'): #todo with allure.step  操作步骤
+            print('第一步')
+            allure.attach.file("E:\me\图片\me.jpg",name='图片',attachment_type=allure.attachment_type.PNG)
+        with allure.step('第二步:two'):
+            print('第二步')
+        with allure.step('第三步:there'):
+            print('第三步')
+            assert True
+    @allure.link('https://www.baidu.com',name='报告管理地址') #todo @allure.link 报告地址
+    def test_failure(self):
+        assert False
+    @allure.issue('https://douban.com','缺陷连接')#todo @allure.issue  缺陷地址
+    def test_skip(self):
+        pytest.skip('跳过')
+    @allure.testcase('https://taobao.com','用例链接')#todo @allure.testcase 用例地址
+    def test_broken(self):
+        raise Exception('异常')
+
+@allure.feature('模块二')
+@allure.severity(allure.severity_level.NORMAL) #todo @allure.severity(allure.severity_level.'级别' )  用例级别
+class Test_x:
+    @allure.severity(allure.severity_level.BLOCKER)
+    def test_1(self):
+        assert True
+    @allure.severity(allure.severity_level.CRITICAL)
+    def test_2(self):
+        assert False
+    @allure.severity(allure.severity_level.MINOR)
+    def test_3(self):
+        assert True
+    @allure.severity(allure.severity_level.TRIVIAL)
+    def test_4(self):
+        assert False
+
+
+
