@@ -4,6 +4,7 @@
 # 默认测试执行器 pytest配置 ：tools->python intergrated tools-> default test runner 为pytest
 # 当前时间 2022/12/20 10:47
 ''
+import logging
 import pytest
 
 
@@ -18,17 +19,17 @@ import pytest
 
 @pytest.fixture(params=['male','tom','yily'])
 def search(request):
-    print(request.param)
+    logging.info(request.param)
     yield request.param
 def test_cart(search):
-    print(f'命名：{search}')
+    logging.info(f'命名：{search}')
 def test_order(login):
-    print('下单')
+    logging.info('下单')
 
 class TestDemo:
     def test_case_1(self,login):
-        print(f'token:{login}')
-        print('case_1')
+        logging.info(f'token:{login}')
+        logging.info('case_1')
     def test_case_2(self):
-        print('case_2')
+        logging.info('case_2')
 
